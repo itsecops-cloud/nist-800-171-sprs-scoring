@@ -1,0 +1,110 @@
+3.1.1|Limit system access to authorized users|5|1
+3.1.2|Limit access to permitted transactions and functions|5|1
+3.1.3|Control the flow of CUI|1|0
+3.1.4|Separate duties of individuals|1|0
+3.1.5|Employ least privilege|3|0
+3.1.6|Use non-privileged accounts for non-security functions|1|0
+3.1.7|Prevent non-privileged users executing privileged functions|1|0
+3.1.8|Limit unsuccessful logon attempts|1|0
+3.1.9|Provide privacy and security notices|1|0
+3.1.10|Session lock with pattern-hiding displays|1|0
+3.1.11|Terminate user sessions automatically|1|0
+3.1.12|Monitor and control remote access sessions|5|0
+3.1.13|Cryptography for remote access confidentiality|5|0
+3.1.14|Route remote access via managed access points|1|0
+3.1.15|Authorize remote privileged commands|1|0
+3.1.16|Authorize wireless access before connections|5|0
+3.1.17|Protect wireless access (authentication and encryption)|5|0
+3.1.18|Control connection of mobile devices|5|0
+3.1.19|Encrypt CUI on mobile devices|3|0
+3.1.20|Verify and control connections to external systems|1|1
+3.1.21|Limit use of portable storage on external systems|1|0
+3.1.22|Control CUI posted on publicly accessible systems|1|1
+3.2.1|Security awareness training|5|0
+3.2.2|Role-based security training|5|0
+3.2.3|Insider threat awareness training|1|0
+3.3.1|Create and retain system audit logs|5|0
+3.3.2|Trace actions to individual users|3|0
+3.3.3|Review and update logged events|1|0
+3.3.4|Alert on audit logging process failure|1|0
+3.3.5|Correlate audit records for investigation|5|0
+3.3.6|Audit record reduction and report generation|1|0
+3.3.7|Synchronized system clocks for audit records|1|0
+3.3.8|Protect audit information from unauthorized access|1|0
+3.3.9|Limit audit management to privileged subset|1|0
+3.4.1|Establish and maintain baseline configurations|5|0
+3.4.2|Enforce security configuration settings|5|0
+3.4.3|Track, review and approve system changes|1|0
+3.4.4|Analyze security impact of changes|1|0
+3.4.5|Access restrictions for changes|5|0
+3.4.6|Employ least functionality|5|0
+3.4.7|Restrict nonessential programs, ports and services|5|0
+3.4.8|Deny-by-exception software policy|5|0
+3.4.9|Control and monitor user-installed software|1|0
+3.5.1|Identify system users and devices|5|1
+3.5.2|Authenticate users, processes and devices|5|1
+3.5.3|Multi-factor authentication (MFA)|S|0
+3.5.4|Replay-resistant authentication|1|0
+3.5.5|Prevent reuse of identifiers|1|0
+3.5.6|Disable identifiers after inactivity|1|0
+3.5.7|Enforce password complexity|1|0
+3.5.8|Prohibit password reuse|1|0
+3.5.9|Temporary passwords with immediate change|1|0
+3.5.10|Store and transmit only protected passwords|5|0
+3.5.11|Obscure authentication feedback|1|0
+3.6.1|Operational incident-handling capability|5|0
+3.6.2|Track, document and report incidents|5|0
+3.6.3|Test incident response capability|1|0
+3.7.1|Perform system maintenance|3|0
+3.7.2|Controls on maintenance tools and personnel|5|0
+3.7.3|Sanitize equipment removed for maintenance|1|0
+3.7.4|Check diagnostic media for malicious code|3|0
+3.7.5|MFA for nonlocal maintenance sessions|5|0
+3.7.6|Supervise unescorted maintenance personnel|1|0
+3.8.1|Protect and store media containing CUI|3|0
+3.8.2|Limit media access to authorized users|3|0
+3.8.3|Sanitize or destroy media before disposal|5|1
+3.8.4|Mark media with CUI markings|1|0
+3.8.5|Control and account for media during transport|1|0
+3.8.6|Cryptography on media during transport|1|0
+3.8.7|Control use of removable media|5|0
+3.8.8|Prohibit portable storage without identifiable owner|3|0
+3.8.9|Protect confidentiality of backup CUI|1|0
+3.9.1|Screen individuals prior to CUI access|3|0
+3.9.2|Protect CUI during personnel actions|5|0
+3.10.1|Limit physical access to authorized individuals|5|1
+3.10.2|Protect and monitor the physical facility|5|0
+3.10.3|Escort and monitor visitors|1|1
+3.10.4|Keep physical access audit logs|1|1
+3.10.5|Control physical access devices|1|1
+3.10.6|Safeguard CUI at alternate work sites|1|0
+3.11.1|Periodically assess risk|3|0
+3.11.2|Scan for vulnerabilities periodically|5|0
+3.11.3|Remediate vulnerabilities per risk assessments|1|0
+3.12.1|Periodically assess security controls|5|0
+3.12.2|Develop and implement plans of action (POA&M)|3|0
+3.12.3|Monitor controls on an ongoing basis|5|0
+3.12.4|System Security Plan (SSP)|R|0
+3.13.1|Monitor and protect communications at boundaries|5|1
+3.13.2|Secure architectural and engineering principles|5|0
+3.13.3|Separate user and system management functionality|1|0
+3.13.4|Prevent unauthorized transfer via shared resources|1|0
+3.13.5|Public-access subnetworks separated from internal|5|1
+3.13.6|Deny-all, permit-by-exception network traffic|5|0
+3.13.7|Prevent split tunneling on remote devices|1|0
+3.13.8|Cryptography to protect CUI in transit|3|0
+3.13.9|Terminate network connections after sessions|1|0
+3.13.10|Establish and manage cryptographic keys|1|0
+3.13.11|FIPS-validated cryptography for CUI|F|0
+3.13.12|Control collaborative computing devices|1|0
+3.13.13|Control and monitor mobile code|1|0
+3.13.14|Control and monitor VoIP|1|0
+3.13.15|Protect authenticity of communications sessions|5|0
+3.13.16|Protect confidentiality of CUI at rest|1|0
+3.14.1|Identify, report and correct system flaws|5|1
+3.14.2|Malicious code protection at designated locations|5|1
+3.14.3|Monitor security alerts and advisories|5|0
+3.14.4|Update malicious code protection mechanisms|5|1
+3.14.5|Periodic and real-time system scans|3|1
+3.14.6|Monitor traffic for attacks and indicators|5|0
+3.14.7|Identify unauthorized use of systems|3|0
